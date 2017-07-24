@@ -8,18 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, WZQRCodeControllerDelegate {
+    
+    var testButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupViews()
+
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    private func setupViews() {
+        testButton = UIButton(type: .custom)
+        testButton?.frame = CGRect(x: 0, y: 0, width: 100, height: 80)
+        testButton?.center = CGPoint(x: view.bounds.midX, y: view.bounds.midY)
+        testButton?.setTitle("扫描二维码", for: .normal)
+        testButton?.setTitleColor(.black, for: .normal)
+        testButton?.backgroundColor = UIColor.blue
+        view.addSubview(testButton!)
+        testButton?.addTarget(self, action: #selector(testButtonAction), for: .touchUpInside)
     }
-
-
+    
+    @objc private func testButtonAction() {
+        let vc = WZQRCodeController()
+        vc.delegate = self
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    /// 扫码控制器代理方法
+    func qrController(_ QRcodeControlle: WZQRCodeController, scanFinishWithInfo info: String?) {
+//        present(WZQRCodeController(), animated: true) {
+//            UserDefaults.standard.set(info, forKey: "QR")
+//            UserDefaults.standard.synchronize()
+//            print("modal success")
+//        }
+    }
+    
 }
+
+
 

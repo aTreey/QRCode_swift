@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170876991F0E0AB2008FDF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170876981F0E0AB2008FDF96 /* ViewController.swift */; };
+		1708769B1F0E0AFB008FDF96 /* WZQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1708769A1F0E0AFB008FDF96 /* WZQRCodeController.swift */; };
+		1788D0471F0CB85900D1476E /* SystemPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D0461F0CB85900D1476E /* SystemPermissions.swift */; };
+		1788D04B1F0DCCB800D1476E /* EFQRCodeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788D04A1F0DCCB700D1476E /* EFQRCodeRecognizer.swift */; };
 		17A86F6F1F0BD359006A3824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86F6E1F0BD359006A3824 /* AppDelegate.swift */; };
-		17A86F711F0BD359006A3824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86F701F0BD359006A3824 /* ViewController.swift */; };
 		17A86F741F0BD359006A3824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A86F721F0BD359006A3824 /* Main.storyboard */; };
 		17A86F761F0BD359006A3824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A86F751F0BD359006A3824 /* Assets.xcassets */; };
 		17A86F791F0BD359006A3824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A86F771F0BD359006A3824 /* LaunchScreen.storyboard */; };
 		17A86F841F0BD359006A3824 /* QRCode_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86F831F0BD359006A3824 /* QRCode_swiftTests.swift */; };
 		17A86F8F1F0BD359006A3824 /* QRCode_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86F8E1F0BD359006A3824 /* QRCode_swiftUITests.swift */; };
+		17EAEE4A1F204EF5005357C9 /* testControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAEE491F204EF5005357C9 /* testControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170876981F0E0AB2008FDF96 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1708769A1F0E0AFB008FDF96 /* WZQRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZQRCodeController.swift; sourceTree = "<group>"; };
+		1788D0461F0CB85900D1476E /* SystemPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemPermissions.swift; sourceTree = "<group>"; };
+		1788D04A1F0DCCB700D1476E /* EFQRCodeRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFQRCodeRecognizer.swift; sourceTree = "<group>"; };
 		17A86F6B1F0BD359006A3824 /* QRCode_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A86F6E1F0BD359006A3824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17A86F701F0BD359006A3824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17A86F731F0BD359006A3824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17A86F751F0BD359006A3824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A86F781F0BD359006A3824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		17A86F8A1F0BD359006A3824 /* QRCode_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCode_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A86F8E1F0BD359006A3824 /* QRCode_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode_swiftUITests.swift; sourceTree = "<group>"; };
 		17A86F901F0BD359006A3824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EAEE471F204EF5005357C9 /* QRCode_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRCode_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		17EAEE481F204EF5005357C9 /* testControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testControllerViewController.h; sourceTree = "<group>"; };
+		17EAEE491F204EF5005357C9 /* testControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170876951F0E0A29008FDF96 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				1788D0461F0CB85900D1476E /* SystemPermissions.swift */,
+				1788D04A1F0DCCB700D1476E /* EFQRCodeRecognizer.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		17A86F621F0BD359006A3824 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +116,17 @@
 		17A86F6D1F0BD359006A3824 /* QRCode_swift */ = {
 			isa = PBXGroup;
 			children = (
+				170876951F0E0A29008FDF96 /* QRCode */,
 				17A86F6E1F0BD359006A3824 /* AppDelegate.swift */,
-				17A86F701F0BD359006A3824 /* ViewController.swift */,
+				170876981F0E0AB2008FDF96 /* ViewController.swift */,
+				1708769A1F0E0AFB008FDF96 /* WZQRCodeController.swift */,
+				17EAEE481F204EF5005357C9 /* testControllerViewController.h */,
+				17EAEE491F204EF5005357C9 /* testControllerViewController.m */,
 				17A86F721F0BD359006A3824 /* Main.storyboard */,
 				17A86F751F0BD359006A3824 /* Assets.xcassets */,
 				17A86F771F0BD359006A3824 /* LaunchScreen.storyboard */,
 				17A86F7A1F0BD359006A3824 /* Info.plist */,
+				17EAEE471F204EF5005357C9 /* QRCode_swift-Bridging-Header.h */,
 			);
 			path = QRCode_swift;
 			sourceTree = "<group>";
@@ -193,8 +217,9 @@
 				TargetAttributes = {
 					17A86F6A1F0BD359006A3824 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UP23SS576K;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 968DRM3WZ8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 					};
 					17A86F7E1F0BD359006A3824 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -262,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A86F711F0BD359006A3824 /* ViewController.swift in Sources */,
+				17EAEE4A1F204EF5005357C9 /* testControllerViewController.m in Sources */,
+				170876991F0E0AB2008FDF96 /* ViewController.swift in Sources */,
+				1788D04B1F0DCCB800D1476E /* EFQRCodeRecognizer.swift in Sources */,
+				1708769B1F0E0AFB008FDF96 /* WZQRCodeController.swift in Sources */,
 				17A86F6F1F0BD359006A3824 /* AppDelegate.swift in Sources */,
+				1788D0471F0CB85900D1476E /* SystemPermissions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +444,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UP23SS576K;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 968DRM3WZ8;
 				INFOPLIST_FILE = QRCode_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "atreey.github.io.QRCode-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wanzhao.WZ.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5998bc03-7073-4933-9202-109ba3cee11b";
+				PROVISIONING_PROFILE_SPECIFIER = WZAppTest_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "QRCode_swift/QRCode_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +463,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UP23SS576K;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QRCode_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "atreey.github.io.QRCode-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wanzhao.WZ.QRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "QRCode_swift/QRCode_swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +553,7 @@
 				17A86F951F0BD359006A3824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A86F961F0BD359006A3824 /* Build configuration list for PBXNativeTarget "QRCode_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +562,7 @@
 				17A86F981F0BD359006A3824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A86F991F0BD359006A3824 /* Build configuration list for PBXNativeTarget "QRCode_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +571,7 @@
 				17A86F9B1F0BD359006A3824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
